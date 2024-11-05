@@ -1,6 +1,20 @@
 # List of Event Types
 This shows the list of event types (and their default stream IDs), along with an example of what their content is like.
 
+## VEKG
+Default stream id: None
+Example:
+```json
+{
+}
+```
+## VEKG_STREAM
+Default stream id: None
+Example:
+```json
+{
+}
+```
 
 ## SERVICE_WORKERS_STREAM_MONITORED
 Default stream id: ServiceWorkersStreamMonitored
@@ -12,6 +26,14 @@ Example:
 
 ## QUERY_CREATED
 Default stream id: QueryCreated
+Example:
+```json
+{
+}
+```
+
+## QUERY_REMOVED
+Default stream id: None
 Example:
 ```json
 {
