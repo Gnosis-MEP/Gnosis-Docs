@@ -190,3 +190,22 @@ Example:
 {
 }
 ```
+
+
+## PUBLISHER_REMOVED
+Default stream id: None
+Example:
+```json
+{
+}
+```
+
+
+## QUERY_DELETION_REQUESTED
+Default stream id: None
+Example:
+```json
+{
+}
+```
+
