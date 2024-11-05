@@ -81,3 +81,28 @@ Example:
 {
 }
 ```
+
+## PUBLISHER_CREATED
+Default stream id: None
+Example:
+```json
+{
+}
+```
+
+## QUERY_RECEIVED
+Default stream id: None
+Example:
+```json
+{
+}
+```
+
+
+## PUBLISHER_CREATED
+Default stream id: None
+Example:
+```json
+{
+}
+```
