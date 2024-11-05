@@ -30,6 +30,9 @@ def print_formated(service_cmd_key_list, pub_event_list):
     published_events = "# Events Published\n"
 
     for prefixed_event_type, default in service_cmd_key_list:
+        if isinstance(prefixed_event_type, tuple):
+            prefixed_event_type = prefixed_event_type[0]
+
         listed_events += format_event_type(prefixed_event_type)
     print(listed_events)
     for prefixed_event_type, default in pub_event_list:
@@ -53,7 +56,10 @@ def print_events_detail_templates(service_cmd_key_list, pub_event_list):
         existing_event_types = [s.split('## ')[1].replace('\n', '') for s in f.readlines() if '## ' in s]
 
     for prefixed_event_type, default in service_cmd_key_list:
-        event_type = prefixed_event_type.split('_EVENT_TYPE_')[1]
+        if isinstance(prefixed_event_type, tuple):
+            event_type = prefixed_event_type[0].split('_EVENT_TYPE_')[1]
+        else:
+            event_type = prefixed_event_type.split('_EVENT_TYPE_')[1]
         if event_type not in existing_event_types:
             print(EVENT_DETAILS_DOC_TEMPLATE.format(event_type=event_type, stream_id=default))
 
