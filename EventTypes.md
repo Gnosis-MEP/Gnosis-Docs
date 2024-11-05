@@ -209,3 +209,20 @@ Example:
 }
 ```
 
+
+## WORKER_PROFILE_RATED
+Default stream id: None
+Example:
+```json
+{
+}
+```
+
+
+## QUERY_SERVICES_QOS_CRITERIA_RANKED
+Default stream id: None
+Example:
+```json
+{
+}
+```
