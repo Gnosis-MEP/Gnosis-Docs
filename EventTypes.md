@@ -128,3 +128,48 @@ Example:
 {
 }
 ```
+
+## NEW_QUERY_SCHEDULING_PLANNED
+Default stream id: None
+Example:
+```json
+{
+}
+```
+
+
+## SERVICE_WORKER_SLR_PROFILE_PLANNED
+Default stream id: None
+Example:
+```json
+{
+}
+```
+
+
+## SERVICE_WORKER_OVERLOADED_PLANNED
+Default stream id: None
+Example:
+```json
+{
+}
+```
+
+
+## SERVICE_WORKER_BEST_IDLE_PLANNED
+Default stream id: None
+Example:
+```json
+{
+}
+```
+
+
+## UNNECESSARY_LOAD_SHEDDING_PLANNED
+Default stream id: None
+Example:
+```json
+{
+}
+```
+
