@@ -344,56 +344,6 @@ Example:
 }
 ```
 
-
-## SERVICE_SLR_PROFILES_RANKED
-**Default stream id:**  ServiceSLRProfilesRanked
-
-Example:
-```json
-{
-  "id": "SLRWorkerRanking:033e4845-923f-4dfc-96cd-9b7ff018a100",
-  "service_type": "ObjectDetection",
-  "slr_profiles": {
-    "ObjectDetection-[0.7, 0.9, 1.0]-[0.5, 0.7, 0.9]-[0.3, 0.5, 0.7]": {
-      "query_ids": [
-        "a04e8f33c7a272477e0e6779afd84a5b"
-      ],
-      "criteria_weights": [
-        [
-          0.7,
-          0.9,
-          1.0
-        ],
-        [
-          0.5,
-          0.7,
-          0.9
-        ],
-        [
-          0.3,
-          0.5,
-          0.7
-        ]
-      ],
-      "alternatives_ids": [
-        "object-detection-ssd-gpu-data"
-      ],
-      "ranking_index": [
-        0
-      ],
-      "ranking_scores": [
-        0
-      ]
-    }
-  },
-  "tracer": {
-    "headers": {
-      "uber-trace-id": "4075e6ac22a8af8a:936b2a63c5c37884:de5058a938f27734:1"
-    }
-  }
-}
-```
-
 ## WORKER_PROFILE_RATED
 **Default stream id:**  WorkerProfileRated
 
@@ -461,6 +411,58 @@ Example:
       "uber-trace-id": "4075e6ac22a8af8a:1764dea0f879ea5e:1b3a575a57bba47f:1"
     }
   }
+}
+```
+
+## SERVICE_SLR_PROFILES_RANKED
+**Default stream id:**  ServiceSLRProfilesRanked
+
+Example:
+```json
+{
+    "id": "SLRWorkerRanking:de85ebe8-1650-4fff-be0d-6321d1f793d3",
+    "service_type": "ObjectDetection",
+    "slr_profiles": {
+        "ObjectDetection-[0.7, 0.9, 1.0]-[0.5, 0.7, 0.9]-[0.3, 0.5, 0.7]": {
+            "query_ids": [
+                "a04e8f33c7a272477e0e6779afd84a5b"
+            ],
+            "criteria_weights": [
+                [
+                    0.7,
+                    0.9,
+                    1.0
+                ],
+                [
+                    0.5,
+                    0.7,
+                    0.9
+                ],
+                [
+                    0.3,
+                    0.5,
+                    0.7
+                ]
+            ],
+            "alternatives_ids": [
+                "object-detection-ssd-gpu-data",
+                "object-detection-ssd-data"
+            ],
+            "ranking_index": [
+                1,
+                0
+            ],
+            "ranking_scores": [
+                0.39880990937619376,
+                0.5710912683940821
+            ]
+        }
+    },
+    "tracer": {
+        "headers": {
+            "uber-trace-id": "78003410ca58d2e0:21c98d666424116:614caf937624fbc2:1"
+        }
+    }
 }
 ```
 
