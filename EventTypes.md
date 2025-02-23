@@ -2,7 +2,8 @@
 This shows the list of event types (and their default stream IDs), along with an example of what their content is like.
 
 ## VEKG
-Default stream id: None (used across all services in the dataflow)
+**Default stream id:**  None (used across all services in the dataflow)
+
 Example:
 ```json
 {
@@ -55,7 +56,8 @@ Example:
 }
 ```
 ## VEKG_STREAM
-Default stream id: None (used across all services in the dataflow)
+**Default stream id:**  None (used across all services in the dataflow)
+
 Example:
 ```json
 {
@@ -132,7 +134,8 @@ Example:
 
 
 ## QUERY_RECEIVED
-Default stream id: QueryReceived
+**Default stream id:**  QueryReceived
+
 Example:
 ```json
 {
@@ -148,7 +151,8 @@ Example:
 ```
 
 ## QUERY_CREATED
-Default stream id: QueryCreated
+**Default stream id:**  QueryCreated
+
 Example:
 ```json
 {
@@ -203,7 +207,8 @@ Example:
 
 
 ## QUERY_DELETION_REQUESTED
-Default stream id: QueryDeletionRequested
+**Default stream id:**  QueryDeletionRequested
+
 Example:
 ```json
 {
@@ -215,7 +220,8 @@ Example:
 
 
 ## QUERY_REMOVED
-Default stream id: QueryRemoved
+**Default stream id:**  QueryRemoved
+
 Example:
 ```json
 {
@@ -270,7 +276,8 @@ Example:
 ```
 
 ## PUBLISHER_CREATED
-Default stream id: PublisherCreated
+**Default stream id:**  PublisherCreated
+
 Example:
 ```json
 {
@@ -292,7 +299,8 @@ Example:
 ```
 
 ## PUBLISHER_REMOVED
-Default stream id: PublisherRemoved
+**Default stream id:**  PublisherRemoved
+
 Example:
 ```json
 {
@@ -307,7 +315,8 @@ Example:
 ```
 
 ## SERVICE_WORKER_ANNOUNCED
-Default stream id: ServiceWorkerAnnounced
+**Default stream id:**  ServiceWorkerAnnounced
+
 Example:
 ```json
 {
@@ -337,7 +346,8 @@ Example:
 
 
 ## SERVICE_SLR_PROFILES_RANKED
-Default stream id: ServiceSLRProfilesRanked
+**Default stream id:**  ServiceSLRProfilesRanked
+
 Example:
 ```json
 {
@@ -385,7 +395,8 @@ Example:
 ```
 
 ## WORKER_PROFILE_RATED
-Default stream id: WorkerProfileRated
+**Default stream id:**  WorkerProfileRated
+
 Example:
 ```json
 {
@@ -418,7 +429,8 @@ Example:
 ```
 
 ## QUERY_SERVICES_QOS_CRITERIA_RANKED
-Default stream id: QueryServicesQoSRanked
+**Default stream id:**  QueryServicesQoSRanked
+
 Example:
 ```json
 {
@@ -454,7 +466,8 @@ Example:
 
 
 ## REPEAT_MONITOR_STREAMS_SIZE_REQUESTED
-Default stream id: RepeatMonitorStreamsSizeRequested
+**Default stream id:**  RepeatMonitorStreamsSizeRequested
+
 Example:
 ```json
 {
@@ -464,7 +477,8 @@ Example:
 ```
 
 ## SERVICE_WORKERS_STREAM_MONITORED
-Default stream id: ServiceWorkersStreamMonitored
+**Default stream id:**  ServiceWorkersStreamMonitored
+
 Example:
 ```json
 {
@@ -504,7 +518,8 @@ Example:
 
 
 ## NEW_QUERY_SCHEDULING_PLAN_REQUESTED
-Default stream id: NewQuerySchedulingPlanRequested
+**Default stream id:**  NewQuerySchedulingPlanRequested
+
 Example:
 ```json
 {
@@ -570,7 +585,8 @@ Example:
 ```
 
 ## SERVICE_WORKER_SLR_PROFILE_CHANGE_PLAN_REQUESTED
-Default stream id: ServiceWorkerSLRProfileChangePlanRequested
+**Default stream id:**  ServiceWorkerSLRProfileChangePlanRequested
+
 Example:
 ```json
 {
@@ -630,7 +646,8 @@ Example:
 ```
 
 ## SERVICE_WORKER_OVERLOADED_PLAN_REQUESTED
-Default stream id: ServiceWorkerOverloadedPlanRequested
+**Default stream id:**  ServiceWorkerOverloadedPlanRequested
+
 Example:
 ```json
 {
@@ -699,7 +716,8 @@ Example:
 ```
 
 ## SERVICE_WORKER_BEST_IDLE_REQUESTED
-Default stream id: ServiceWorkerBestIdlePlanRequested
+**Default stream id:**  ServiceWorkerBestIdlePlanRequested
+
 Example:
 ```json
 {
@@ -768,7 +786,8 @@ Example:
 ```
 
 ## UNNECESSARY_LOAD_SHEDDING_REQUESTED
-Default stream id: UnnecessaryLoadSheddingPlanRequested
+**Default stream id:**  UnnecessaryLoadSheddingPlanRequested
+
 Example:
 ```json
 
@@ -838,7 +857,8 @@ Example:
 ```
 
 ## SERVICE_WORKER_SLR_PROFILE_PLANNED
-Default stream id: ServiceWorkerSLRProfilePlanned
+**Default stream id:**  ServiceWorkerSLRProfilePlanned
+
 Example:
 ```json
 {
@@ -922,7 +942,8 @@ Example:
 
 
 ## NEW_QUERY_SCHEDULING_PLANNED
-Default stream id: NewQuerySchedulingPlanned
+**Default stream id:**  NewQuerySchedulingPlanned
+
 Example:
 ```json
 {
@@ -1012,7 +1033,8 @@ Example:
 
 
 ## SERVICE_WORKER_OVERLOADED_PLANNED
-Default stream id: ServiceWorkerOverloadedPlanned
+**Default stream id:**  ServiceWorkerOverloadedPlanned
+
 Example:
 ```json
 {
@@ -1105,7 +1127,8 @@ Example:
 
 
 ## SERVICE_WORKER_BEST_IDLE_PLANNED
-Default stream id: ServiceWorkerBestIdlePlanned
+**Default stream id:**  ServiceWorkerBestIdlePlanned
+
 Example:
 ```json
 {
@@ -1198,7 +1221,8 @@ Example:
 
 
 ## UNNECESSARY_LOAD_SHEDDING_PLANNED
-Default stream id: UnnecessaryLoadSheddingPlanned
+**Default stream id:**  UnnecessaryLoadSheddingPlanned
+
 Example:
 ```json
 {
@@ -1290,7 +1314,8 @@ Example:
 ```
 
 ## SCHEDULING_PLAN_EXECUTED
-Default stream id: SchedulingPlanExecuted
+**Default stream id:**  SchedulingPlanExecuted
+
 Example:
 ```json
 {
